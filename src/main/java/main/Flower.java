@@ -1,3 +1,5 @@
+package main;
+
 public class Flower {
     double price;
     String color;

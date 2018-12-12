@@ -1,3 +1,5 @@
+package main;
+
 import java.util.ArrayList;
 
 public class FlowerBucket {
@@ -17,6 +19,7 @@ public class FlowerBucket {
     public void setPrice(double discount){
         this.price = discount * price;
     }
+
     public Integer flowerAmount(Flower flower){
         Class theClass = flower.getClass();
         int num = 0;
@@ -37,5 +40,6 @@ public class FlowerBucket {
 
         return flower;
     }
+
 
 }

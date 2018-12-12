@@ -1,3 +1,5 @@
+package main;
+
 public class Tulip extends Flower {
     public boolean opened;
     public Tulip(Integer price, String color, Integer lengthOfStem, String odor,
@@ -6,6 +8,6 @@ public class Tulip extends Flower {
         this.opened = opened;
     }
     public String toString(){
-        return "Tulip/s";
+        return "main.Tulip/s";
     }
 }

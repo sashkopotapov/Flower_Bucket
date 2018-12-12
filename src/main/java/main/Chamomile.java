@@ -1,3 +1,5 @@
+package main;
+
 public class Chamomile extends Flower {
     public boolean medical;
     public Chamomile(Integer price, String color, Integer lengthOfStem, String odor,
@@ -6,6 +8,6 @@ public class Chamomile extends Flower {
         this.medical = medical;
     }
     public String toString(){
-        return "Chamomile/s";
+        return "main.Chamomile/s";
     }
 }

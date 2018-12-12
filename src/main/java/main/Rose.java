@@ -1,3 +1,5 @@
+package main;
+
 public class Rose extends Flower {
 
     public boolean spikes;
